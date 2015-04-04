@@ -7,7 +7,7 @@ if (isset($_FILES['file_1']))
     $up = new Uploaded();
     $up->setAllowedTypes(Uploaded::$TYPES['image']);
     $up->setAllowedSize(1024*20); //20ko
-    $up->setUploadDir("upload");
+    $up->setUploadDir("upload"); // create folder under name "upload" for uploaded in
 
     $up->setFile($_FILES['file_1']);
     echo '<h1>File 1</h1>';
