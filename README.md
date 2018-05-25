@@ -1,4 +1,8 @@
 # uploaded
+<h3>
+upload class to ensure that upload files are safe on php
+</h3>
+<br />
 <p>
   <strong>$up = new Uploaded();</strong> create object<br />
   <strong>$up->setAllowedTypes(Uploaded::$TYPES['image']);</strong> set mime type<br />
