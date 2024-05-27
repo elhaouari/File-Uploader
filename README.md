@@ -1,6 +1,6 @@
-# uploaded
+# File uploader
 <h3>
-upload class to ensure that upload files are safe on php
+uploader class to ensure that upload files are safe on php
 </h3>
 <br />
 <p>
